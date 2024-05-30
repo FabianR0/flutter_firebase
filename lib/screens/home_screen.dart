@@ -41,7 +41,7 @@ class HomeScreen extends ConsumerWidget {
                       if (product.imageUrl != null)
                         Expanded(
                           child: Image.network(
-                            product.imageUrl!,
+                            product.imageUrl,
                             fit: BoxFit.cover,
                           ),
                         )

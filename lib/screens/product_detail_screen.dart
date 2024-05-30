@@ -29,7 +29,7 @@ class ProductDetailScreen extends ConsumerWidget {
               // ignore: unnecessary_null_comparison
               if (product.imageUrl != null)
                 Image.network(
-                  product.imageUrl!,
+                  product.imageUrl,
                   fit: BoxFit.cover,
                 )
               else
